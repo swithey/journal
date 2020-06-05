@@ -81,7 +81,7 @@ main {
 
 /* Media Queries */
 
-@media (min-width: 719px) {
+@media (min-width: 720px) {
     .entry-header, .entry {
         display: inline;
     }
