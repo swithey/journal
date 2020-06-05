@@ -1,0 +1,102 @@
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+body {
+    background-color: #fff;
+}
+
+footer {
+}
+
+aside {
+}
+
+main {
+}
+
+/* Utility Classes */
+
+.padding1 {
+    padding: 1em;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 48px 1fr 72px 72px;
+    height: 100vh;
+    grid-auto-rows: 88px;
+    grid-template-areas:
+        "entry-list-header"
+        "entry-list"
+        "entry-list-nav"
+        "nav";
+}
+
+/* Classes */
+
+.entry {
+    display: none;
+    background-color: lavender;
+    grid-area: entry;
+    /* grid-column: 2 / -1;
+    grid-row: 2 / 4; */
+}
+
+.entry-header {
+    display: none;
+    background-color: lightcyan;
+    grid-area: entry-header;
+    /* grid-column: 2 / -1; */
+}
+
+.entry-list-header {
+    background-color: lightseagreen;
+    grid-area: entry-list-header;
+    /* grid-row: 1 / 2; */
+}
+
+.entry-list {
+    background-color: lightgreen;
+    grid-area: entry-list;
+    /* grid-row: 2 / 3; */
+}
+
+.entry-list-nav {
+    background-color: lightpink;
+    grid-area: entry-list-nav;
+    /* grid-row: 3 / 4; */
+}
+
+.nav {
+    background-color: lightyellow;
+    grid-area: nav;
+    /* grid-column: 1 / -1;
+    grid-row: 4 / -1; */
+}
+
+/* Media Queries */
+
+@media (min-width: 720px) {
+    .entry-header, .entry {
+        display: inline;
+    }
+    .grid {
+        grid-template-columns: minmax(288px, 1fr) 2fr;
+        grid-template-areas:
+        "entry-list-header entry-header"
+        "entry-list entry"
+        "entry-list-nav entry"
+        "nav nav";
+    }
+}
+
+
+
+
+
+
