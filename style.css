@@ -13,6 +13,10 @@ body {
     padding: 1em;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 /* Grid */
 
 .grid {
@@ -46,7 +50,8 @@ body {
 }
 
 .entry-list-header {
-    background-color: lightseagreen;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     grid-area: entry-list-header;
     /* grid-row: 1 / 2; */
 }
