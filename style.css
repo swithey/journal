@@ -9,33 +9,7 @@ body {
 
 /* Utility Classes */
 
-.padding1 {
-    padding: 1em;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.margin-l8 {
-    margin-left: .5em;
-}
-
-.margin-t16 {
-    margin-top: 1em;
-}
-
-.margin-r16 {
-    margin-right: 1em;
-}
-
-.margin-16 {
-    margin: 1em;
-}
-
-.no-wrap {
-    white-space:nowrap;
-}
+/* Utility Classes - Text */
 
 .text-align-c {
     text-align: center;
@@ -51,6 +25,104 @@ body {
 
 .text-disabled {
     color: rgba(0, 0, 0, .38)
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* Utility Classes - Padding */
+
+.padding1 {
+    padding: 1em;
+}
+
+/* Utility Classes - Margin */
+
+.margin-8 {
+    margin: .5em;
+}
+
+.margin-l8 {
+    margin-left: .5em;
+}
+
+.margin-r8 {
+    margin-right: .5em;
+}
+
+.margin-t8 {
+    margin-top: .5em;
+}
+
+.margin-b8 {
+    margin-bottom: .5em;
+}
+
+.margin-r16 {
+    margin-right: 1em;
+}
+
+.margin-l16 {
+    margin-left: 1em;
+}
+
+.margin-t16 {
+    margin-top: 1em;
+}
+
+.margin-r16 {
+    margin-bottom: 1em;
+}
+
+.margin-16 {
+    margin: 1em;
+}
+
+.margin-r24 {
+    margin-right: 1.5em;
+}
+
+.margin-l24 {
+    margin-left: 1.5em;
+}
+
+.margin-t24 {
+    margin-top: 1.5em;
+}
+
+.margin-r24 {
+    margin-bottom: 1.5em;
+}
+
+.margin-24 {
+    margin: 1.5em;
+}
+
+.margin-r32 {
+    margin-right: 2em;
+}
+
+.margin-l32 {
+    margin-left: 2em;
+}
+
+.margin-t32 {
+    margin-top: 2em;
+}
+
+.margin-r32 {
+    margin-bottom: 2em;
+}
+
+.margin-32 {
+    margin: 2em;
+}
+
+/* Utility Classes - Other */
+
+.no-wrap {
+    white-space:nowrap;
 }
 
 /* Grid */
@@ -123,7 +195,7 @@ body {
         display: inline;
     }
     .grid {
-        grid-template-columns: minmax(288px, 1fr) 2fr;
+        grid-template-columns: minmax(320px, 1fr) 2fr;
         grid-template-areas:
         "entry-list-header entry-header"
         "entry-list entry"
