@@ -25,7 +25,7 @@ body {
     grid-template-columns: 80px 1fr;
     grid-template-rows: auto auto auto auto;
     grid-area: entry-list;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .grid-entry-list-header {
