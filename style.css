@@ -12,13 +12,11 @@ body {
 .grid-layout {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 48px auto 72px 72px;
+    grid-template-rows: auto 56px;
     height: 100vh;
     grid-template-areas:
-        "entry-list-header"
         "entry-list"
-        "entry-list-nav"
-        "nav";
+        "entry-list-nav";
 }
 
 .grid-entry-list {
@@ -32,7 +30,7 @@ body {
     grid-area: entry-list-header;
 }
 
-grid-entry-list-nav {
+.grid-entry-list-nav {
     grid-area: entry-list-nav;
 }
 
@@ -58,11 +56,11 @@ grid-entry-list-nav {
 
     .grid-layout {
         grid-template-columns: minmax(320px, 1fr) 2fr;
+        grid-template-rows: 56px auto 56px;
         grid-template-areas:
-        "entry-list-header entry-header"
+        "entry-list entry-header"
         "entry-list entry"
-        "entry-list-nav entry"
-        "nav nav";
+        "entry-list-nav entry-list-nav";
     }
 
     .hide-grid {
