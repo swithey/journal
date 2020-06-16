@@ -2,9 +2,11 @@
 html {
     font-family: 'Work Sans', sans-serif;
     line-height: 1.25;
+    height: 100%;
 }
 body {
     background-color: #fff;
+    height: 100%;
 }
 
 /* Grid */
@@ -13,7 +15,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 56px;
-    height: 100vh;
+    height: 100%;
     grid-template-areas:
         "entry-list"
         "entry-list-nav";
@@ -52,7 +54,7 @@ body {
 
 /* Media Queries */
 
-@media (min-width: 719px) {
+@media (min-width: 60em) {
 
     .grid-layout {
         grid-template-columns: minmax(320px, 1fr) 2fr;
@@ -63,7 +65,7 @@ body {
         "entry-list-nav entry-list-nav";
     }
 
-    
+
 
 /* This makes the design one column on small */
     .hide-grid {
