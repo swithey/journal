@@ -65,15 +65,10 @@ body {
         "entry-list-nav entry-list-nav";
     }
 
-
-
 /* This makes the design one column on small */
     .hide-grid {
         display: grid;
     }
-
-
-
 }
 
 
