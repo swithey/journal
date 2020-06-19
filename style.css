@@ -14,7 +14,7 @@ body {
 .grid-layout {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 56px;
+    grid-template-rows: auto 64px;
     height: 100%;
     grid-template-areas:
         "entry-list"
