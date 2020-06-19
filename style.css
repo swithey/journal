@@ -58,7 +58,7 @@ body {
 
     .grid-layout {
         grid-template-columns: minmax(320px, 1fr) 2fr;
-        grid-template-rows: 56px auto 56px;
+        grid-template-rows: 64px auto 64px;
         grid-template-areas:
         "entry-list entry-header"
         "entry-list entry"
@@ -70,7 +70,6 @@ body {
         display: grid;
     }
 }
-
 
 
 
