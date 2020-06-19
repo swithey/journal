@@ -9,6 +9,10 @@ body {
     height: 100%;
 }
 
+br {
+    line-height: 2;
+}
+
 /* Grid */
 
 .grid-layout {
@@ -67,7 +71,7 @@ body {
 
 /* This makes the design one column on small */
     .hide-grid {
-        display: grid;
+        display: none;
     }
 }
 
